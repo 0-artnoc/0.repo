@@ -1,23 +1,35 @@
-# repo
-# sources.list
+> # repo
+
+> # sources.list
 
 ---
-
-```
 #
 #-----------------------------------
 #-----------------------------------
 #-----------------------------------
+#
+> ARM.LINUX.REPO'S
+#
 #-----------------------------------
-deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
-deb http://raspbian.raspberrypi.org/raspbian/ testing main contrib non-free rpi
-deb http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi
-deb http://raspbian.raspberrypi.org/raspbian/ stable main contrib non-free rpi
-deb http://raspbian.raspberrypi.org/raspbian/ oldstable main contrib non-free rpi
-deb http://raspbian.raspberrypi.org/raspbian/ oldoldstable main contrib non-free rpi
-deb http://raspbian.raspberrypi.org/raspbian/ jessie main contrib non-free rpi
-deb http://raspbian.raspberrypi.org/raspbian/ bullseye main contrib non-free rpi
-##-------------------------------------------------------------------------------------------------
+#
+> Raspbian.deb
+#
+#-----------------------------------
+
+- [`deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+- [`deb http://raspbian.raspberrypi.org/raspbian/ testing main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+- [`deb http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+- [`deb http://raspbian.raspberrypi.org/raspbian/ stable main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+- [`deb http://raspbian.raspberrypi.org/raspbian/ oldstable main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+- [`deb http://raspbian.raspberrypi.org/raspbian/ oldoldstable main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+- [`deb http://raspbian.raspberrypi.org/raspbian/ jessie main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+- [`deb http://raspbian.raspberrypi.org/raspbian/ bullseye main contrib non-free rpi`](http://raspbian.raspberrypi.org/raspbian/);
+
+#-------------------------------------------------------------------------------------------------
+#
+> Debian.deb
+#
+#-----------------------------------
 deb http://debian.org.ua/debian/ buster main contrib non-free  
 deb http://debian.org.ua/debian/ testing main contrib non-free  
 deb http://debian.org.ua/debian/ stretch main contrib non-free  
@@ -57,11 +69,13 @@ deb http://ftp.debian.org/debian/ testing main contrib non-free
 deb http://ftp.debian.org/debian/ testing-proposed-updates main contrib non-free
 deb http://ftp.debian.org/debian/ testing-updates main contrib non-free
 deb http://ftp.debian.org/debian/ unstable main contrib non-free
-##---------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------
 #ubuntu.deb 
-##-------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------
 #mint.deb 
-##-------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------
+#Kali.deb
+#-----------------------------------
 deb http://http.kali.org/kali/ kali-bleeding-edge main contrib non-free
 deb http://http.kali.org/kali/ debian-testing main contrib non-free
 deb http://http.kali.org/kali/ kali-debian-picks main contrib non-free
@@ -71,9 +85,10 @@ deb http://http.kali.org/kali/ kali-experimental main contrib non-free
 deb http://http.kali.org/kali/ kali-last-snapshot main contrib non-free
 deb http://http.kali.org/kali/ kali-rolling-only main contrib non-free
 deb http://http.kali.org/kali/ kali-rolling main contrib non-free
-##-------------------------------------------------------------------------------------------------
-```
 #-----------------------------------
 #-----------------------------------
-#
-```
+#-----------------------------------
+#-----------------------------------
+#-----------------------------------
+#-----------------------------------
+
