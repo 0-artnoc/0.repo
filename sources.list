@@ -1,4 +1,4 @@
-#-----------------------------Kali.deb
+#----------------------------- KALI
 deb http://http.kali.org/kali/ kali-bleeding-edge main contrib non-free
 deb http://http.kali.org/kali/ debian-testing main contrib non-free
 deb http://http.kali.org/kali/ kali-debian-picks main contrib non-free
@@ -8,7 +8,7 @@ deb http://http.kali.org/kali/ kali-dev main contrib non-free
 deb http://http.kali.org/kali/ kali-last-snapshot main contrib non-free
 deb http://http.kali.org/kali/ kali-rolling-only main contrib non-free
 deb http://http.kali.org/kali/ kali-rolling main contrib non-free
-#-----------------------------Raspbian.deb
+#----------------------------- RASPBIAN
 deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
 deb http://raspbian.raspberrypi.org/raspbian/ testing main contrib non-free rpi
 deb http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi
@@ -17,7 +17,7 @@ deb http://raspbian.raspberrypi.org/raspbian/ oldstable main contrib non-free rp
 deb http://raspbian.raspberrypi.org/raspbian/ oldoldstable main contrib non-free rpi
 deb http://raspbian.raspberrypi.org/raspbian/ jessie main contrib non-free rpi
 deb http://raspbian.raspberrypi.org/raspbian/ bullseye main contrib non-free rpi
-#-----------------------------Debian.deb
+#----------------------------- DEBIAN
 deb http://ftp.debian.org/debian/ bullseye main contrib non-free
 deb http://ftp.debian.org/debian/ bullseye-backports main contrib non-free
 deb http://ftp.debian.org/debian/ bullseye-proposed-updates main contrib non-free
