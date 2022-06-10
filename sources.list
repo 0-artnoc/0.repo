@@ -4,7 +4,7 @@ deb http://http.kali.org/kali/ debian-testing main contrib non-free
 deb http://http.kali.org/kali/ kali-debian-picks main contrib non-free
 deb http://http.kali.org/kali/ kali-dev-only main contrib non-free
 deb http://http.kali.org/kali/ kali-dev main contrib non-free
-# deb http://http.kali.org/kali/ kali-experimental main contrib non-free
+#deb http://http.kali.org/kali/ kali-experimental main contrib non-free
 deb http://http.kali.org/kali/ kali-last-snapshot main contrib non-free
 deb http://http.kali.org/kali/ kali-rolling-only main contrib non-free
 deb http://http.kali.org/kali/ kali-rolling main contrib non-free
@@ -26,11 +26,11 @@ deb http://ftp.debian.org/debian/ buster main contrib non-free
 deb http://ftp.debian.org/debian/ buster-backports main contrib non-free
 deb http://ftp.debian.org/debian/ buster-proposed-updates main contrib non-free
 deb http://ftp.debian.org/debian/ buster-updates main contrib non-free
-# deb http://ftp.debian.org/debian/ experimental main contrib non-free
+#deb http://ftp.debian.org/debian/ experimental main contrib non-free
 deb http://ftp.debian.org/debian/ jessie main contrib non-free
 deb http://ftp.debian.org/debian/ jessie-updates main contrib non-free
-# deb http://ftp.debian.org/debian/ oldoldstable main contrib non-free
-# deb http://ftp.debian.org/debian/ oldoldstable-updates main contrib non-free
+#deb http://ftp.debian.org/debian/ oldoldstable main contrib non-free
+#deb http://ftp.debian.org/debian/ oldoldstable-updates main contrib non-free
 deb http://ftp.debian.org/debian/ oldstable main contrib non-free
 deb http://ftp.debian.org/debian/ oldstable-proposed-updates main contrib non-free
 deb http://ftp.debian.org/debian/ oldstable-updates main contrib non-free
@@ -46,8 +46,9 @@ deb http://ftp.debian.org/debian/ stretch-updates main contrib non-free
 deb http://ftp.debian.org/debian/ testing main contrib non-free
 deb http://ftp.debian.org/debian/ testing-proposed-updates main contrib non-free
 deb http://ftp.debian.org/debian/ testing-updates main contrib non-free
-# deb http://ftp.debian.org/debian/ unstable main contrib non-free
-#
+#deb http://ftp.debian.org/debian/ unstable main contrib non-free
+#-----------------------------#-----------------------------
 # wget -q -O - https://www.kali.org/archive-key.asc | gpg --import
-#
+#-----------------------------#-----------------------------
 # apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY
+#-----------------------------#-----------------------------
